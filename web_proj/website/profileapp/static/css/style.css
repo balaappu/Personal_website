@@ -1,0 +1,50 @@
+#top{
+    
+    border-style: solid;
+    height: 270px;
+    background-image: linear-gradient(black,rgb(224, 228, 14));
+}
+.top{
+    color: rgb(236, 236, 32);
+    font-size: 35px;
+    border-style: solid;
+    background-color: black;
+}
+.mine{
+    width:200px;
+    padding-top: 10px;
+    color: rgb(12, 12, 12);
+    font-size: 30px;
+}
+#all{
+    background-color: rgb(37, 104, 104);
+}
+navbar{
+    width: 100%;
+    padding-left: 0px;
+}
+navbar ul{
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+}
+navbar ul li{
+    width:310px;
+    float: left;
+}
+navbar ul li a{
+    display:block;
+    color: rgb(124, 185, 238);
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    
+    height:50px;
+    padding: 20px 0 0;
+    font-size: 20px;    
+}
+navbar ul li a:hover{
+    background-color: rgb(233, 89, 89);
+    scale: (1.1);
+    transition: background 0.5sec;
+}

@@ -1,0 +1,26 @@
+{% include 'index.html' %}
+{% load static %}
+
+<html>
+    <head>
+        {% load static %}   
+        <link href="{% static 'css/style.css' %}" rel="stylesheet">
+        <style>
+            body{
+                background-color: rgb(37, 104, 104);
+                height:fit-content;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;                
+            }
+        </style>
+        </head>
+<div>
+<ul id="ficon">
+    <li class="flist"><a href="#" class="ficon"><img src="{% static 'image/phone.jpg' %}" width="100px" height="100px">mobile.no:9159317870</a>  </li>
+    <li class="flist"><a href="#" class="ficon"><img src="{% static 'image/email.jpg' %}" width="100px" height="100px">balagselvaraj@gmail.com </a> </li>
+    <li class="flist"><a href="#" class="ficon"><img src="{% static 'image/skype.png' %}" width="100px" height="100px">live:.cid.4e6605de10628966 </a> </li>
+   </ul>
+</div>
+</body>
+</html>

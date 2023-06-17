@@ -1,0 +1,42 @@
+{% include 'index.html' %}
+{% load static %}
+<html>
+    <head>
+        {% load static %}
+        <link href="{% static 'css/style.css' %}" rel="stylesheet">
+        <style>
+            body{
+                background-color: rgb(37, 104, 104);
+                height:fit-content;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+        </style>
+        {% load static %}
+    </head>
+    <body>
+        <fieldset>
+        <legend align="center">
+        <h1 id="head">Extra Curicular Activity</h1></legend>
+        <br><div>
+            <div class="emain-lab">
+        <p><h2 id="head" align="center">BLOOD DONATION</h2>
+            <img src="{% static 'image/bld_donation.jpg' %}" width="400px" height="200px"  id="img1">
+        <ul class="eli" >
+            <li>partcipated blood donation camp conducted by Tamil Nadu State Blood Transfusion Council</li>
+        </ul></p>
+    </div>
+        <div class="emain-lab">
+        <p><h2 id="head" align="center">TREE PLANTING</h2>
+            <img src="{% static 'image/tree_planting.jpg' %}" width="400px" height="200px"  id="img1">
+        <ul class="eli" >
+            <li>participated tree planting camp counducted by Rotract club</li>
+        </ul></p>
+    </div>
+        
+</div>
+</div>
+        </body>
+        </html>

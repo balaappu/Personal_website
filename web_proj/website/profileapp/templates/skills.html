@@ -1,0 +1,61 @@
+{% include 'index.html' %}
+{% load static %}
+<html>
+    <head>
+        
+        <link href="{% static 'css/style.css' %}" rel="stylesheet">
+        <style>
+            body{
+                background-color: rgb(37, 104, 104);
+                height:fit-content;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+        </style>
+         {% load static %}
+    </head>
+    <body id="all">
+        <p><div>
+            <ol>
+            <div class="scon">
+                <li><b id="shead" align="center">PYTHON</b><br>
+                    <img src="{% static 'image/python.jpg' %}" width="400px" height=300px" class="simg"><P id="w1" class="lab">
+                         <br>Python has become one of the most popular programming languages in the world in recent
+                         years. It's used in everything from <b><a href="#" style="text-decoration: none;">machine learning</a></b> to building websites and software
+                         testing. <br>It can be used by developers and non-developers alike.
+                         Python has become a staple in data science, allowing data analysts and other professionals
+                         to use the language to conduct complex statistical calculations, create data visualizations,
+                         build machine learning algorithms, <b>manipulate </b>and analyze data, and complete other
+                         data-related tasks.</P><hr>
+            <div class="scon">         
+                <li ><b id="shead" align="center">DATA SCIENCE</b><br>
+                    <img src="{% static 'image/datascience.jpg' %}" width="400px" height="300px" class="simg"><P id="w1" class="lab">
+                        The primary objective of data science is to identify patterns in data.
+                         It analyses the data and derives insights using a variety of statistical techniques.
+                          A data scientist must carefully examine the data after data extraction, wrangling, and pre-processing.
+                 </li></div>
+                 <div class="scon">
+                <li ><b id="shead" align="center">MYSQL</b><br>
+                    <img src="{% static 'image/mysqllogo.png' %}" width="400px" height="300px" class="simg"><P id="w1" class="lab">
+                        It allows programmers to use SQL to create, modify, and extract data from the relational database.
+                         By normalizing data in the rows and columns of the tables, MySQL turns into a scalable yet flexible data storage system with a user-friendly interface that can manage lots of data.  
+                </li>
+                </div>
+            </ol>
+            </div>
+        </p>
+        <div id="fall"><a href="#" >
+            <div>
+            <ul>
+                <li class="flist"><a href="#" class="fli">Contact</a></li>
+                <li class="flist"><a href="#" class="fli">Phone</a></li>
+                <li class="flist"><a href="#" class="fli">Email</a></li>
+                <li class="flist"><a href="#" class="fli">Home</a></li>
+           </ul><br><br>
+           
+        </div>
+        </div>
+        </body>
+        </html>

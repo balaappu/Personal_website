@@ -1,0 +1,50 @@
+{% include 'index.html' %}
+{% load static %}
+<html>
+    <head>
+        {% load static %}
+        <link href= "{% static 'css/style.css' %}"  rel="stylesheet">
+        <style>
+            body{
+                background-color: rgb(37, 104, 104);
+                height:fit-content;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+        </style>
+        {% load static %}
+    </head>
+    <body id="all">
+        <div>
+        <table width="920" cellpadding="50" cellspacing="0" border="5" align="center"  class="qtable">
+        <tr>
+        <th scope="col" id="qhead">Education</th>
+        <th scope="col" id="qhead">Institution</th>
+        <th scope="col" id="qhead">Year of Passing</th>
+        <th scope="col" id="qhead">Percentage</th>
+    </tr>
+    <tr>
+        <th scope="row" id="qhead">10-TH</th>
+        <td id="qsub">SVK higher secondary school, a.thekkur,sivagangai(DT)</td>
+        <td id="qsub">2013</td>
+        <td id="qsub">75%</td>
+    </tr>
+    <tr >
+        <th scope="row" id="qhead">12-TH</th>
+        <td id="qsub" class="qrow">SVK higher secondary school, a.thekkur,sivagangai(DT)</td>
+        <td id="qsub" class="qrow">2015</td>
+        <td id="qsub" class="qrow">70%</td>
+    </tr>
+    <tr>
+        <th scope="row"  id="qhead">B.E MECHANICAL ENGINEERING</th>
+        <td id="qsub">Shanmuganatan engineering college,arasampatti,Pudukkottai(DT)</td>
+        <td id="qsub">2019</td>
+        <td id="qsub">65%</td>
+    </tr>
+</table> 
+</div>
+</div>
+    </body>
+    </html>

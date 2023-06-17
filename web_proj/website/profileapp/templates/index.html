@@ -1,0 +1,24 @@
+{% load static %}
+<html>
+    <head>
+        {% load static %}   
+        <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    </head>
+    {% load static %}
+    <body >
+        
+        <center id="top"><img src="{% static 'image/profileimage.jpeg' %}" width="150px" height="150px" >
+        <br><b class="top">MY PROFILE</b> <br>
+        <marquee style="color:rgb(10, 10, 10);width:300px;font-size: 30px;  font-weight: bold; height: 40px; padding: 20px 0 10px;font-family: Georgia, 'Times New Roman', Times, serif; ">WELCOME TO MY WEBSITE</marquee>  </center>
+        <navbar>
+            <ul>
+                
+                <li><a href="/personal.html"> Personal Details</a> </li>
+                <li><a href="/qual.html"> Qualification</a> </li>
+                <li><a href="/skills.html"> Skills</a> </li>
+                <li><a href="/extra.html"> Extra Activity</a> </li>
+            </ul>
+        </navbar>
+        <hr> 
+    </body>
+</html>
